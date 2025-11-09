@@ -11,7 +11,7 @@ async function helpCommand(sock, chatId, message) {
 ┃ 📺 *YouTube:* ${global.ytch || 'Not set'}
 ╰━━━━━━━━━━━━━━╯
 
-🔥 _"Arslan-Ai is not just a bot, it's an experience."_  
+🔥 _"Arslan-Tech is not just a bot, it's an experience."_  
 ✨ _Designed with 💙 by ArslanMD_
 🔍 _Use the commands below to explore the magic🪄._
 
@@ -155,7 +155,7 @@ async function helpCommand(sock, chatId, message) {
 📢 *Join our channel*`;
 
     try {
-        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+        const imagePath = path.join(__dirname, '../assets/menu_image.jpg');
         if (fs.existsSync(imagePath)) {
             await sock.sendMessage(chatId, {
                 image: fs.readFileSync(imagePath),
